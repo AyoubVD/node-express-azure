@@ -4,7 +4,7 @@ trigger:
 
 #hosted build agent, you can choose wich OS should be running your build
 pool:
-  vmImage: 'macos-latest'
+  vmImage: 'ubuntu-latest'
 
 steps:
 # the first step is the installation of Node.js
